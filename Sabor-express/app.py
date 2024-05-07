@@ -43,7 +43,16 @@ def exibir_subtitulo(texto):
     
 
 def cadastrar_novo_restaurante():
-    '''Essa função é responsavel por cadastrar um novo restaurante'''
+    '''Essa função é responsavel por cadastrar um novo restaurante
+    Inputs:
+    -Nome do restaurante
+    -Categoria
+    Outputs:
+    -Adiciona um novo restaurante a lista de restaurantes.
+    
+    
+    
+    '''
     exibir_subtitulo('Cadastro de novos restaurantes')
     nome_do_restaurante = input('Digite o nome do restaurante que deseja cadastrar:  \n')
     categoria = input(f'Digite o nome da categoria do restaurante {nome_do_restaurante}: ')
@@ -86,7 +95,7 @@ def  alternar_estado_restaurante():
 
 
 def escolher_opcao():
-    '''Essa funçao esolhe uma opçao a ser feita '''
+    '''Essa funçao esolhe uma opçao a ser realizada '''
     try:
         opcao_escolhida =  int (input('Escolha uma opção: '))
         # opcao_escolhida = int(opcao_escolhida)
